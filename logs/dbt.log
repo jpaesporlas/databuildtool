@@ -1,0 +1,46 @@
+[0m02:37:05.863780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7B2086650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7AECAA950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7AECAA610>]}
+
+
+============================== 02:37:05.863780 | d6e58dba-5835-4278-981d-206c5872a2a5 ==============================
+[0m02:37:05.863780 [info ] [MainThread]: Running with dbt=1.10.13
+[0m02:37:05.863780 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\Patrick\\.dbt', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init databuildtool', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'empty': 'None', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m02:37:05.883291 [debug] [MainThread]: Starter project path: C:\Users\Patrick\GitHub\databuildtool\py_venv\Lib\site-packages\dbt\include\starter_project
+[0m02:37:05.898753 [info ] [MainThread]: 
+Your new dbt project "databuildtool" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:37:05.898753 [info ] [MainThread]: Setting up your profile.
+[0m02:37:05.898753 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m02:37:05.912961 [debug] [MainThread]: Command `dbt init` failed at 02:37:05.912509 after 0.13 seconds
+[0m02:37:05.912961 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7B2086910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7AB64A210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7AB649FD0>]}
+[0m02:37:05.912961 [debug] [MainThread]: Flushing usage events
+[0m02:37:06.912830 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:38:51.486545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E26426650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E266DA690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E266DAB10>]}
+
+
+============================== 02:38:51.486545 | f1babbe0-8008-4ea0-91e0-975ba154c728 ==============================
+[0m02:38:51.486545 [info ] [MainThread]: Running with dbt=1.10.13
+[0m02:38:51.486545 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt build', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'empty': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\Patrick\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m02:38:51.486545 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Patrick\GitHub\databuildtool\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m02:38:51.486545 [debug] [MainThread]: Command `dbt build` failed at 02:38:51.486545 after 0.09 seconds
+[0m02:38:51.486545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E26426C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E26663E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E26663D10>]}
+[0m02:38:51.486545 [debug] [MainThread]: Flushing usage events
+[0m02:38:57.511443 [debug] [MainThread]: An error was encountered while trying to flush usage events
